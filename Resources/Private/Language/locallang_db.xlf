@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" date="2024-07-05T12:58:00Z" product-name="content_visibility">
+		<header />
+		<body>
+			<trans-unit id="tt_content.visibility" resname="tt_content.visibility">
+				<source>Show/Hide</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.all" resname="tt_content.visibility.visible.all">
+				<source>Visible on all sizes</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.sm" resname="tt_content.visibility.visible.sm">
+				<source>Show up to SM</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.md" resname="tt_content.visibility.visible.md">
+				<source>Show up to MD</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.lg" resname="tt_content.visibility.visible.lg">
+				<source>Show up to LG</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.xl" resname="tt_content.visibility.visible.xl">
+				<source>Show up to XL</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.xxl" resname="tt_content.visibility.visible.xxl">
+				<source>Show up to XXL</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.sm" resname="tt_content.visibility.hidden.sm">
+				<source>Hide up to SM</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.md" resname="tt_content.visibility.hidden.md">
+				<source>Hide up to MD</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.lg" resname="tt_content.visibility.hidden.lg">
+				<source>Hide up to LG</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.xl" resname="tt_content.visibility.hidden.xl">
+				<source>Hide up to XL</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.xxl" resname="tt_content.visibility.hidden.xxl">
+				<source>Hide up to XXL</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

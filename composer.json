@@ -1,0 +1,48 @@
+{
+	"name": "quellenform/t3x-content-visibility",
+	"type": "typo3-cms-extension",
+	"description": "",
+	"keywords": [
+		"TYPO3",
+		"extension"
+	],
+	"license": [
+		"GPL-3.0-or-later"
+	],
+	"homepage": "https://extensions.typo3.org/extension/content_visibility",
+	"support": {
+		"source": "https://github.com/quellenform/t3x-content-visibility",
+		"issues": "https://github.com/quellenform/t3x-content-visibility/issues"
+	},
+	"authors": [
+		{
+			"name": "Stephan Kellermayr",
+			"email": "typo3@quellenform.at",
+			"role": "Developer",
+			"homepage": "https://www.quellenform.at/"
+		}
+	],
+	"require": {
+		"php": ">=8.1.0",
+		"typo3/cms-core": ">=12.4 || ^13"
+	},
+	"autoload": {
+		"psr-4": {
+			"Quellenform\\ContentVisibility\\": "Classes"
+		}
+	},
+	"replace": {
+		"typo3-ter/content-visibility": "self.version"
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://composer.typo3.org/"
+		}
+	],
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "content_visibility"
+		}
+	}
+}

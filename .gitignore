@@ -1,0 +1,12 @@
+/.vscode
+/.Build/*
+/Build/node_modules
+/Build/Scripts
+/Build/package-lock.json
+/.php-cs-fixer.cache
+/Documentation-GENERATED/
+/composer.lock
+/TODO.md
+/Makefile
+/Documentation/conf.py
+/.terignore

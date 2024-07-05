@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" target-language="de" datatype="plaintext" original="EXT:content_visibility/Resources/Private/Language/locallang_db.xlf" date="2024-07-05T12:58:00Z" product-name="content_visibility">
+		<header />
+		<body>
+			<trans-unit id="tt_content.visibility" resname="tt_content.visibility" approved="yes">
+				<source>Show/hide</source>
+				<source>Anzeigen/Verbergen</source>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.all" resname="tt_content.visibility.visible.all" approved="yes">
+				<source>Visible on all sizes</source>
+				<target>Sichtbar bei allen Größen</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.sm" resname="tt_content.visibility.visible.sm" approved="yes">
+				<source>Show up to SM</source>
+				<target>Anzeigen bis zu SM</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.md" resname="tt_content.visibility.visible.md" approved="yes">
+				<source>Show up to MD</source>
+				<target>Anzeigen bis zu MD</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.lg" resname="tt_content.visibility.visible.lg" approved="yes">
+				<source>Show up to LG</source>
+				<target>Anzeigen bis zu LG</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.xl" resname="tt_content.visibility.visible.xl" approved="yes">
+				<source>Show up to XL</source>
+				<target>Anzeigen bis zu XL</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.visible.xxl" resname="tt_content.visibility.visible.xxl" approved="yes">
+				<source>Show up to XXL</source>
+				<target>Anzeigen bis zu XXL</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.sm" resname="tt_content.visibility.hidden.sm" approved="yes">
+				<source>Hide up to SM</source>
+				<target>Verbergen bis zu SM</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.md" resname="tt_content.visibility.hidden.md" approved="yes">
+				<source>Hide up to MD</source>
+				<target>Verbergen bis zu MD</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.lg" resname="tt_content.visibility.hidden.lg" approved="yes">
+				<source>Hide up to LG</source>
+				<target>Verbergen bis zu LG</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.xl" resname="tt_content.visibility.hidden.xl" approved="yes">
+				<source>Hide up to XL</source>
+				<target>Verbergen bis zu XL</target>
+			</trans-unit>
+			<trans-unit id="tt_content.visibility.hidden.xxl" resname="tt_content.visibility.hidden.xxl" approved="yes">
+				<source>Hide up to XXL</source>
+				<target>Verbergen bis zu XXL</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

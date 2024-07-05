@@ -1,0 +1,2 @@
+# Include default setup for content_visibility
+@import 'EXT:content_visibility/Configuration/TypoScript/setup.typoscript'
