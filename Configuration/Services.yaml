@@ -8,6 +8,7 @@ services:
     resource: '../Classes/*'
 
   Quellenform\ContentVisibility\DataProcessing\VisibilityProcessor:
+    shared: false
+    public: false
     tags:
-      - name: 'data.processor'
-        identifier: 'ContentVisibility'
+      - { name: 'data.processor', identifier: 'content-visibility' }
