@@ -12,17 +12,50 @@ defined('TYPO3') || die();
                 'type' => 'select',
                 'renderType' => 'selectSingle',
                 'items' => [
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.all', 0],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.sm', 1],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.md', 2],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.lg', 3],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.xl', 4],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.xxl', 5],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.sm', 11],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.md', 12],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.lg', 13],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.xl', 14],
-                    ['LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.xxl', 15]
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.all',
+                        'value' => 0
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.sm',
+                        'value' => 1
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.md',
+                        'value' => 2
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.lg',
+                        'value' => 3
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.xl',
+                        'value' => 4
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.visible.xxl',
+                        'value' => 5
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.sm',
+                        'value' => 11
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.md',
+                        'value' => 12
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.lg',
+                        'value' => 13
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.xl',
+                        'value' => 14
+                    ],
+                    [
+                        'label' => 'LLL:EXT:content_visibility/Resources/Private/Language/locallang_db.xlf:tt_content.visibility.hidden.xxl',
+                        'value' => 15
+                    ]
                 ]
             ]
         ]
