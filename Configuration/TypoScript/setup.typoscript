@@ -1,6 +1,7 @@
 lib.contentElement {
   dataProcessing {
-    1700000000 = content-visibility
+    #1700000000 = content-visibility
+    1700000000 = Quellenform\ContentVisibility\DataProcessing\VisibilityProcessor
     1700000000 {
       classMapping {
         default = 0
