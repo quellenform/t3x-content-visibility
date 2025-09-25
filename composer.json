@@ -1,7 +1,7 @@
 {
 	"name": "quellenform/t3x-content-visibility",
 	"type": "typo3-cms-extension",
-	"description": "",
+	"description": "Control the visibility of content elements depending on the screen size.",
 	"keywords": [
 		"TYPO3",
 		"extension"
@@ -23,8 +23,8 @@
 		}
 	],
 	"require": {
-		"php": ">=8.1.0",
-		"typo3/cms-core": ">=12.4 || ^13"
+		"php": ">=7.4.0",
+		"typo3/cms-core": "^10 || ^11 || ^12 || ^13 || 14.*.*@dev"
 	},
 	"suggest": {
 		"bk2k/bootstrap-package": "Bootstrap Package delivers a full configured frontend theme for TYPO3, based on the Bootstrap CSS Framework."
