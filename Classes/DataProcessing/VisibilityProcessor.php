@@ -7,8 +7,6 @@ namespace Quellenform\ContentVisibility\DataProcessing;
 /*
  * This file is part of the "content_visibility" Extension for TYPO3 CMS.
  *
- * Conceived and written by Stephan Kellermayr
- *
  * For the full copyright and license information, please read the
  * LICENSE.txt file that was distributed with this source code.
  */
@@ -17,7 +15,7 @@ use TYPO3\CMS\Frontend\ContentObject\ContentObjectRenderer;
 use TYPO3\CMS\Frontend\ContentObject\DataProcessorInterface;
 
 /**
- * DataProcessor to generate visibility settings
+ * DataProcessor to generate visibility settings.
  *
  * TypoScript configuration
  *
@@ -35,6 +33,7 @@ class VisibilityProcessor implements DataProcessorInterface
      * @param array $contentObjectConfiguration The configuration of Content Object
      * @param array $processorConfiguration The configuration of this processor
      * @param array $processedData Key/value store of processed data (e.g. to be passed to a Fluid View)
+     *
      * @return array the processed data as key/value store
      */
     public function process(
@@ -42,7 +41,7 @@ class VisibilityProcessor implements DataProcessorInterface
         array $contentObjectConfiguration,
         array $processorConfiguration,
         array $processedData
-    ) {
+    ): array {
         if (isset($processorConfiguration['if.']) && !$cObj->checkIf($processorConfiguration['if.'])) {
             return $processedData;
         }
@@ -79,7 +78,7 @@ class VisibilityProcessor implements DataProcessorInterface
             }
         }
 
-        // Append additioonal class(es) to exsiting fields of bootstrap_package
+        // Append additional class(es) to existing fields of bootstrap_package
         if (
             isset($processedData['frameAttributes']) &&
             is_array($processedData['frameAttributes'])
@@ -91,7 +90,7 @@ class VisibilityProcessor implements DataProcessorInterface
             }
         }
 
-        // Replace original field value
+        // Replace original field value for direct use in ViewHelpers
         $processedData['data'][$fieldName] = $output;
 
         return $processedData;
