@@ -2,5 +2,5 @@
 @import 'EXT:content_visibility/Configuration/TypoScript/setup.typoscript'
 
 lib.contentElement.layoutRootPaths {
-  3 = EXT:content_visibility/Resources/Private/FluidStyledContent/Layouts/
+  6 = EXT:content_visibility/Resources/Private/BootstrapPackage-12/Layouts/
 }
