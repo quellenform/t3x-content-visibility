@@ -6,7 +6,7 @@ defined('TYPO3') || die();
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
     'content_visibility',
     'Configuration/TypoScript/FluidStyledContent/',
-    'Content Visibility for "Fluid Styled Content"'
+    'Fluid Styled Content: Content Visibility'
 );
 
 if (version_compare(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getExtensionVersion('bootstrap_package'), '13', '<')) {
@@ -14,13 +14,13 @@ if (version_compare(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::getExten
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         'content_visibility',
         'Configuration/TypoScript/BootstrapPackage-12/',
-        'Content Visibility for "Bootstrap Package 12.x"'
+        'Bootstrap Package: Content Visibility (12.x)'
     );
 } else {
     // Add static typoscript configuration for EXT:bootstrap_package
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         'content_visibility',
         'Configuration/TypoScript/BootstrapPackage/',
-        'Content Visibility for "Bootstrap Package"'
+        'Bootstrap Package: Content Visibility (13+)'
     );
 }
