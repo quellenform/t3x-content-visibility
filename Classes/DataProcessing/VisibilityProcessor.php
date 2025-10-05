@@ -58,7 +58,7 @@ class VisibilityProcessor implements DataProcessorInterface
         $cssMapping = $processorConfiguration['classMapping.'];
 
         // Get value from database
-        $fieldValue = $cObj->data[$fieldName];
+        $fieldValue = $processedData['data'][$fieldName];
 
         // Fill output with values from TypoScript
         $output = '';
