@@ -12,11 +12,11 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '0.1.1',
     'constraints' => [
         'depends' => [
-            'typo3' => '10.4.0-13.9.99'
+            'typo3' => '10.4.0-14.9.99'
         ],
         'conflicts' => [],
         'suggests' => [
-            'bootstrap_package' => '12.0.10-15.99'
+            'bootstrap_package' => '12.0.10-16.99'
         ]
     ]
 ];

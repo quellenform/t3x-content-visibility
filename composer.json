@@ -24,7 +24,7 @@
 	],
 	"require": {
 		"php": ">=7.4.0",
-		"typo3/cms-core": "^10 || ^11 || ^12 || ^13 || 14.*.*@dev"
+		"typo3/cms-core": ">=10 <15 || 15.*.*@dev"
 	},
 	"suggest": {
 		"bk2k/bootstrap-package": "Bootstrap Package delivers a full configured frontend theme for TYPO3, based on the Bootstrap CSS Framework."
